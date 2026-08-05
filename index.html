@@ -3,203 +3,532 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>APEX | APEX</title>
-  <meta name="description" content="APEX is a practical implementation of the OPUS methodology for organisational knowledge, evidence, reasoning and learning.">
-  <meta property="og:title" content="APEX — Organisational Knowledge and Reasoning">
-  <meta property="og:description" content="APEX is a practical implementation of the OPUS methodology for organisational knowledge, evidence, reasoning and learning.">
+  <title>APEX v0.6 | OPUS research made practical</title>
+  <meta name="description" content="OPUS is Orange Peel's research-led operating system for organisational reasoning. APEX applies it to difficult programme decisions through qualified evidence, an ontology and explainable reasoning.">
+  <meta property="og:title" content="APEX v0.6 — OPUS research made practical">
+  <meta property="og:description" content="Explore how OPUS became APEX, how organisational evidence becomes a decision brief, and the first demonstrated case study: should Northstar Release R12 go live?">
   <meta property="og:type" content="website">
-  <meta name="theme-color" content="#ef6c21">
+  <meta name="theme-color" content="#071a2b">
+  <link rel="icon" href="assets/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" href="assets/favicon-32.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
+
   <header class="site-header">
     <div class="shell nav">
-      <a class="brand" href="index.html" aria-label="APEX home">
-        <span class="brand-mark" aria-hidden="true">
-          <span class="peel peel-one"></span>
-          <span class="peel peel-two"></span>
-          <span class="peel peel-three"></span>
-        </span>
-        <span class="brand-copy">
-          <strong>ORANGE PEEL</strong>
-          <small>IT SERVICES LTD</small>
-        </span>
+      <a class="brand" href="#top" aria-label="Orange Peel IT Services home">
+        <img src="assets/orange-peel-brand.png" alt="Orange Peel IT Services Ltd">
       </a>
       <nav aria-label="Primary navigation">
-        <a class="nav-current" href="index.html">Home</a><a href="opus.html">OPUS</a><a href="research.html">Research</a><a href="papers.html">Papers</a><a href="applications.html">Applications</a><a href="roadmap.html">Roadmap</a><a href="about.html">About</a><a class="nav-cta" href="contact.html">Contact</a>
+        <a href="#opus-apex">OPUS and APEX</a>
+        <a href="#how">How it works</a>
+        <a href="#case-studies">Case studies</a>
+        <a href="#research">Research</a>
+        <a class="nav-cta" href="#interview">Shape a case study</a>
       </nav>
     </div>
   </header>
+
   <main id="main">
     <section class="hero" id="top">
       <div class="shell hero-grid">
         <div class="hero-copy reveal">
-          <p class="eyebrow">APEX</p>
-          <h1>Every organisation creates knowledge. Very few truly understand it.</h1>
+          <a class="version-pill" href="#whats-new" aria-label="Go to what is new in version 0.6">
+            <span>v0.6</span>
+            <strong>First proof of concept demonstrated</strong>
+          </a>
+          <p class="eyebrow">OPUS → APEX · RESEARCH IN ACTION</p>
+          <h1>Transformation should be continuously justified. Not just continuously delivered.</h1>
           <p class="lead">
-            APEX is a practical implementation of OPUS: a methodology for helping
-            organisations represent reality, reason from evidence and learn from outcomes
-            while keeping judgement and accountability with people.
+            OPUS is Orange Peel's research-led operating system for organisational reasoning. APEX is the product that applies it—qualifying evidence, connecting it through an ontology and helping accountable people make better decisions.
           </p>
           <div class="hero-actions">
-            <a class="button button-primary" href="opus.html">Explore OPUS</a>
-            <a class="button button-secondary" href="applications.html">See the applications</a>
+            <a class="button button-primary" href="#opus-apex">See how OPUS becomes APEX</a>
+            <a class="button button-secondary" href="#case-studies">Explore the case studies</a>
           </div>
+          <p class="status-line">Research-led. Evidence-based. Designed to strengthen—not replace—human judgement.</p>
         </div>
-        <aside class="question-card reveal" aria-label="The central proposition">
-          <p>THE CENTRAL PROPOSITION</p>
-          <blockquote>
-            “An organisation can only reason well when it can distinguish what it knows,
-            why it believes it and how confident it should be.”
-          </blockquote>
-          <span>
-            APEX supports reasoning. People retain authority, judgement and accountability.
-          </span>
+
+        <aside class="question-card reveal" aria-label="The defining question">
+          <p>THE DEFINING QUESTION</p>
+          <blockquote>“Knowing what we know today, would we still choose to make the same investment?”</blockquote>
+          <span>OPUS keeps the question alive. APEX helps an authorised person answer it.</span>
         </aside>
       </div>
     </section>
 
-    <section class="statement">
+    <section class="statement" id="whats-new">
       <div class="shell narrow reveal">
-        <p>Technology changes quickly.</p>
-        <h2>A sound methodology should remain useful as the tools evolve.</h2>
+        <p>Most organisations measure whether transformation is being delivered.</p>
+        <h2>APEX asks whether it remains worth delivering—and what the evidence really supports.</h2>
       </div>
     </section>
 
-    <section class="section" id="observation">
+    <section class="section" id="problem">
       <div class="shell">
         <div class="section-heading reveal">
-          <p class="eyebrow">THE OBSERVATION</p>
-          <h2>Organisations rarely fail because they lack information.</h2>
+          <p class="eyebrow">THE PROBLEM</p>
+          <h2>Delivery can remain busy, governed and apparently on plan—while quietly losing its purpose.</h2>
+          <p>Programmes begin with a business case, expected benefits and a set of assumptions. Then the organisation changes. Leadership, markets, regulation, technology, actors and priorities move on. The programme often continues.</p>
         </div>
-        <div class="two-column">
+
+        <div class="problem-grid">
           <div class="prose reveal">
-            <p>
-              APEX began with a practical observation drawn from complex technology
-              transformation, delivery and assurance.
-            </p>
-            <p>
-              Programmes rarely fail because of one catastrophic mistake. More often,
-              they drift. Requirements change. Leadership changes. Markets change.
-              The organisation adapts while delivery continues to pursue priorities
-              agreed in a different world.
-            </p>
-            <p>
-              Capable people make sensible decisions, but often from fragmented
-              evidence, incomplete context and competing interpretations of reality.
-            </p>
+            <p>Traditional governance is good at recording activity and approving change. It is much less effective at reasoning across those changes and asking whether the investment still makes sense.</p>
+            <p>A green status does not prove that a programme is on track. It proves that someone recorded it as green.</p>
+            <p>APEX is being researched to connect the original purpose, today's evidence and the decision now required.</p>
           </div>
+
           <div class="drift-card reveal">
-            <p class="card-label">THE EVOLVING IDEA</p>
+            <p class="card-label">STRATEGIC DRIFT</p>
             <div class="drift-line">
-              <span>Observed first</span><i></i>
-              <strong>Why do programmes fail?</strong>
+              <span>Original intent</span>
+              <i></i>
+              <strong>What the organisation chose to achieve</strong>
             </div>
             <div class="drift-line">
-              <span>Revealed beneath</span><i class="long"></i>
-              <strong>Why do organisations struggle to understand themselves?</strong>
+              <span>Current delivery</span>
+              <i class="long"></i>
+              <strong>What the programme is now building</strong>
             </div>
             <div class="drift-line">
-              <span>The methodology asks</span><i class="short"></i>
-              <strong>How can people reason with confidence from empirical evidence?</strong>
+              <span>Current need</span>
+              <i class="short"></i>
+              <strong>What matters to the organisation today</strong>
             </div>
-            <p class="drift-conclusion">That line of enquiry became OPUS.</p>
+            <p class="drift-conclusion">The programme succeeds. The transformation fails.</p>
           </div>
         </div>
-      </div>
-    </section>
 
-    <section class="section section-dark">
-      <div class="shell">
-        <div class="section-heading reveal">
-          <p class="eyebrow">THE STRUCTURE</p>
-          <h2>Methodology, research, implementation and application.</h2>
-          <p>
-            Each layer has a distinct purpose. Keeping them separate prevents the
-            technology from becoming the idea.
-          </p>
-        </div>
-        <div class="capability-grid">
-          <article class="capability reveal">
-            <span>01 — OPUS</span><h3>The methodology</h3>
-            <p>A practical approach to organisational knowledge, evidence, reasoning and learning.</p>
-          </article>
-          <article class="capability reveal">
-            <span>02 — RESEARCH</span><h3>The development</h3>
-            <p>Work that tests, challenges and improves the methodology against evidence and practice.</p>
-          </article>
-          <article class="capability reveal">
-            <span>03 — APEX</span><h3>The implementation</h3>
-            <p>A practical environment through which the methodology can be applied and explored.</p>
-          </article>
-          <article class="capability reveal">
-            <span>04 — APPLICATIONS</span><h3>The use</h3>
-            <p>Specific organisational questions examined through shared knowledge rather than isolated tools.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section reasoning">
-      <div class="shell">
-        <div class="section-heading reveal">
-          <p class="eyebrow">THE KNOWLEDGE CYCLE</p>
-          <h2>From reality to organisational learning.</h2>
-        </div>
-        <div class="comparison reveal">
+        <div class="illustrative-drift reveal">
+          <p class="maturity-label">ILLUSTRATIVE FUTURE CASE · NOT A RESULT FROM THE CURRENT POC</p>
           <div>
-            <p class="comparison-label">THE FLOW</p>
-            <p class="quote">
-              Reality → Ontology → Facts → Relationships → Evidence → Reasoning →
-              Confidence → Decision → Outcome → Learning
-            </p>
-          </div>
-          <div class="comparison-arrow" aria-hidden="true">→</div>
-          <div class="apex-answer">
-            <p class="comparison-label">THE IMPORTANT DISTINCTION</p>
-            <p class="quote">
-              APEX supports reasoning. Actors decide. Outcomes return as empirical evidence.
-            </p>
-            <p class="recommendation">
-              Reality is not adjusted to protect the model. The model is adjusted to reflect reality.
-            </p>
+            <strong>“Should we approve this change?”</strong>
+            <p>A conventional pack might show twelve approved change requests. APEX should be able to explain that the proposed change would move delivery <b>72% away</b> from the trajectory that supported the original benefits case—and show what changed, why it matters and who must decide.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="conversation">
-      <div class="shell conversation-inner reveal">
-        <p class="eyebrow">EXPLORE APEX</p>
-        <h2>Start with the methodology.</h2>
-        <p>
-          OPUS provides the structure. Research develops it. APEX explores how it
-          can work in practice.
-        </p>
-        <a class="button button-light" href="opus.html">Read about OPUS</a>
+    <section class="section section-dark" id="opus-apex">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <p class="eyebrow light">FROM THEORY TO PRODUCT</p>
+          <h2>OPUS establishes how organisations should reason. APEX makes that reasoning usable.</h2>
+          <p>They are related, but they are not the same thing.</p>
+        </div>
+
+        <div class="relationship-grid">
+          <article class="relationship-card reveal">
+            <p class="relationship-kicker">THE OPERATING SYSTEM</p>
+            <h3>OPUS</h3>
+            <p>The research framework: principles, ontology, evidence discipline, competency questions and rules for reasoning across purpose, delivery, authority and outcomes.</p>
+            <ul>
+              <li>Defines the concepts and relationships</li>
+              <li>Preserves provenance, time and authority</li>
+              <li>Tests how good decisions should be supported</li>
+              <li>Evolves through controlled research and case studies</li>
+            </ul>
+          </article>
+
+          <div class="relationship-arrow reveal" aria-hidden="true">
+            <span>research</span>
+            <b>→</b>
+            <span>application</span>
+          </div>
+
+          <article class="relationship-card product reveal">
+            <p class="relationship-kicker">THE PRODUCT</p>
+            <h3>APEX</h3>
+            <p>The practical experience: an Actor asks a difficult question; APEX qualifies the context, reasons across the organisation's evidence and produces an explainable decision brief.</p>
+            <ul>
+              <li>Qualifies and connects organisational evidence</li>
+              <li>Finds contradictions, gaps and strategic drift</li>
+              <li>Asks clarifying questions before answering</li>
+              <li>Supports the authorised person who must decide</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="evolution reveal" aria-label="OPUS to APEX evolution">
+          <div><span>01</span><strong>Theory</strong><small>A practical theory of organisational knowledge and reasoning</small></div>
+          <div><span>02</span><strong>Ontology</strong><small>A stable semantic model for organisational reality</small></div>
+          <div><span>03</span><strong>Architecture</strong><small>A controlled implementation and decision framework</small></div>
+          <div class="current"><span>04</span><strong>Proof</strong><small>Northstar demonstrates an executable, inspectable result</small></div>
+          <div><span>05</span><strong>Case library</strong><small>Further questions test and extend the theory</small></div>
+        </div>
       </div>
     </section>
 
+    <section class="section research" id="research">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <p class="eyebrow">THE RESEARCH BASELINE</p>
+          <h2>The theory has been challenged before the product is allowed to make a claim.</h2>
+          <p>The ontology has been tested across delivery, commercial, operational, regulatory and evidential scenarios. The same semantic core remained sufficient.</p>
+        </div>
+
+        <div class="research-metrics">
+          <article class="reveal"><strong>17</strong><span>stable core concepts</span></article>
+          <article class="reveal"><strong>33</strong><span>controlled scenarios</span></article>
+          <article class="reveal"><strong>315</strong><span>accepted design decisions</span></article>
+          <article class="reveal"><strong>782</strong><span>unique competency questions</span></article>
+          <article class="reveal"><strong>0</strong><span>new core abstractions required</span></article>
+        </div>
+
+        <div class="concept-groups reveal">
+          <div><span>Who and where</span><p>Actor · Role · Authority · Context</p></div>
+          <div><span>Why and what is owed</span><p>Purpose · Commitment · Rule</p></div>
+          <div><span>What happens</span><p>Work · Event · Decision · Artefact</p></div>
+          <div><span>What is true and what results</span><p>Condition · State · Outcome · Measure · Assertion · Evidence</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark reasoning-section" id="how">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <p class="eyebrow light">FROM QUESTION TO DECISION BRIEF</p>
+          <h2>APEX should ask before it answers.</h2>
+          <p>A useful answer depends on context. Which decision? At what point in time? Against which baseline? Which evidence is current? Who has authority? What business outcome could be affected?</p>
+        </div>
+
+        <div class="reasoning-journey reveal" data-reasoning-journey>
+          <div class="reasoning-track" role="tablist" aria-label="APEX reasoning journey">
+            <button class="reasoning-node is-active" type="button" role="tab" aria-selected="true" data-flow-step="0">
+              <span class="node-icon">?</span>
+              <strong>Actor asks</strong>
+              <small>“Should we go live?”</small>
+            </button>
+            <button class="reasoning-node" type="button" role="tab" aria-selected="false" data-flow-step="1">
+              <span class="node-icon">Q</span>
+              <strong>APEX qualifies</strong>
+              <small>Clarifies context and authority</small>
+            </button>
+            <button class="reasoning-node" type="button" role="tab" aria-selected="false" data-flow-step="2">
+              <span class="node-icon">IQ</span>
+              <strong>Evidence</strong>
+              <small>Builds the organisation's IQ</small>
+            </button>
+            <button class="reasoning-node" type="button" role="tab" aria-selected="false" data-flow-step="3">
+              <span class="node-icon">O</span>
+              <strong>Ontology</strong>
+              <small>Connects meaning and provenance</small>
+            </button>
+            <button class="reasoning-node" type="button" role="tab" aria-selected="false" data-flow-step="4">
+              <span class="node-icon">R</span>
+              <strong>Reasoning</strong>
+              <small>Tests rules and contradictions</small>
+            </button>
+            <button class="reasoning-node" type="button" role="tab" aria-selected="false" data-flow-step="5">
+              <span class="node-icon">✓</span>
+              <strong>Decision brief</strong>
+              <small>Explains what the evidence supports</small>
+            </button>
+            <span class="reasoning-pulse" aria-hidden="true"></span>
+          </div>
+
+          <div class="reasoning-detail" aria-live="polite">
+            <p class="comparison-label" data-flow-label>THE QUESTION</p>
+            <h3 data-flow-title>An authorised Actor asks APEX a decision question.</h3>
+            <p data-flow-copy>The conversational interface is the front door—not the intelligence itself. APEX first identifies the Actor, decision, context and point in time.</p>
+            <div class="qualifying-questions" data-flow-extra>
+              <span>Which release?</span>
+              <span>Which decision date?</span>
+              <span>What evidence is current?</span>
+              <span>Who holds authority?</span>
+            </div>
+          </div>
+        </div>
+
+        <noscript>
+          <p class="noscript-note">APEX flow: Actor asks → APEX qualifies → evidence is identified and qualified → information is mapped into the ontology → rules and contradictions are tested → an explainable decision brief is presented to the authorised person.</p>
+        </noscript>
+      </div>
+    </section>
+
+    <section class="section organisation-iq" id="organisation-iq">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <p class="eyebrow">THE ORGANISATION'S IQ</p>
+          <h2>Not another score. A qualified, connected and time-aware body of knowledge.</h2>
+          <p>Traditional tools retain fragments. APEX qualifies each source, maps it to a shared meaning and reasons over the relationships.</p>
+        </div>
+
+        <div class="iq-grid">
+          <article class="reveal"><span>Intent</span><h3>Why are we doing this?</h3><p>Business case, purpose, benefits plan, outcome measures and strategic assumptions.</p></article>
+          <article class="reveal"><span>Obligation</span><h3>What have we committed to?</h3><p>Contracts, statements of work, acceptance criteria, commitments and authorised changes.</p></article>
+          <article class="reveal"><span>Delivery</span><h3>What is actually happening?</h3><p>Plans, work, milestones, dependencies, RAID records, defects and decisions.</p></article>
+          <article class="reveal"><span>Assurance</span><h3>What does the evidence support?</h3><p>Testing, rollback, operational acceptance, independent assurance and customer impact.</p></article>
+          <article class="reveal"><span>Authority</span><h3>Who may decide?</h3><p>Actors, roles, delegations, quorum, thresholds and time-valid approvals.</p></article>
+          <article class="reveal"><span>Reality</span><h3>What matters now?</h3><p>Current organisational need, changed benefits, operational capacity and emerging outcomes.</p></article>
+        </div>
+
+        <div class="qualification-band reveal">
+          <strong>Before ingestion, every source is qualified.</strong>
+          <span>Identity</span><span>Owner</span><span>Version</span><span>Effective time</span><span>Status</span><span>Provenance</span><span>Confidence</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section case-study-section" id="case-studies">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <p class="eyebrow">ASK APEX</p>
+          <h2>The questions become the case-study library.</h2>
+          <p>Each case begins with an Actor who has a real decision to make. Every new proof adds to the site rather than replacing the story.</p>
+        </div>
+
+        <div class="case-study-layout reveal">
+          <div class="case-selector" id="case-selector" role="tablist" aria-label="APEX case studies">
+            <p class="loading-note">Loading case studies…</p>
+          </div>
+          <article class="case-preview" id="case-preview" aria-live="polite">
+            <p class="maturity-label">CASE STUDY</p>
+            <h3>Select a question</h3>
+            <p>The selected case study will appear here.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section northstar" id="northstar-case">
+      <div class="shell">
+        <div class="case-heading reveal">
+          <div>
+            <p class="eyebrow">CASE STUDY 01 · DEMONSTRATED</p>
+            <h2>Should Northstar Release R12 go live?</h2>
+            <p>Northstar Platform Renewal is a controlled fictional programme at Meridian Financial Services plc. Release R12 changes customer servicing, payment resilience, operational monitoring, vulnerable-customer support and rollback capability.</p>
+          </div>
+          <div class="case-answer">
+            <span>APEX ASSESSMENT</span>
+            <strong>Conditionally Ready</strong>
+            <small>Unconditional approval is not supported by the current evidence.</small>
+          </div>
+        </div>
+
+        <div class="actor-grid reveal">
+          <article><span>Customer</span><strong>Meridian Financial Services plc</strong><p>Regulated service owner and final customer authority.</p></article>
+          <article><span>Prime supplier</span><strong>Northstar Digital Delivery Ltd</strong><p>Responsible for delivery of Release R12.</p></article>
+          <article><span>Operations</span><strong>Harbour Platform Operations Ltd</strong><p>Managed service and operational readiness.</p></article>
+          <article><span>Independent assurance</span><strong>Verity Assurance Partners LLP</strong><p>Independent test and assurance challenge.</p></article>
+        </div>
+
+        <div class="business-voice reveal">
+          <div>
+            <p class="maturity-label">THE QUIETEST VOICE</p>
+            <h3>Technical progress was visible. Downstream business readiness was less certain.</h3>
+          </div>
+          <p>The change could affect call volume, handling time, complaints, backlogs, vulnerable customers and operational capacity. The current POC did not measure those effects; it established that they required evidence and accountable business consideration. The Operations Representative was absent from the release decision and the operational checklist remained unsigned.</p>
+        </div>
+
+        <div class="northstar-proof reveal">
+          <article><strong>14</strong><span>controlled sources mapped</span></article>
+          <article><strong>36</strong><span>source-to-ontology mappings</span></article>
+          <article><strong>25/25</strong><span>delivery questions answered</span></article>
+          <article><strong>10/10</strong><span>seeded contradictions detected</span></article>
+          <article><strong>10</strong><span>readiness rules executed</span></article>
+          <article><strong>0</strong><span>graph-validation violations</span></article>
+        </div>
+
+        <div class="northstar-tabs reveal" data-northstar-tabs>
+          <div class="walkthrough-tabs" role="tablist" aria-label="Northstar decision brief">
+            <button type="button" role="tab" aria-selected="true" data-northstar-panel="conditions">Unmet conditions</button>
+            <button type="button" role="tab" aria-selected="false" data-northstar-panel="authority">Who decides</button>
+            <button type="button" role="tab" aria-selected="false" data-northstar-panel="support">How APEX supports</button>
+            <button type="button" role="tab" aria-selected="false" data-northstar-panel="brief">Decision brief</button>
+          </div>
+
+          <div class="northstar-panel is-active" data-northstar-content="conditions">
+            <p class="comparison-label">NINE RULES REQUIRE ACTION</p>
+            <div class="condition-groups">
+              <div><strong>Evidence incomplete</strong><p>Two mandatory tests, production-like rollback rehearsal and verified deployment credentials.</p></div>
+              <div><strong>Business and governance incomplete</strong><p>Operational risk acceptance, Release Board quorum and a completed operational acceptance checklist.</p></div>
+              <div><strong>The decision pack is not current</strong><p>CCN-012 is missing from the gate baseline, assurance used an older pack and the earlier approval expired when the date changed.</p></div>
+            </div>
+          </div>
+
+          <div class="northstar-panel" data-northstar-content="authority" hidden>
+            <p class="comparison-label">HUMAN AUTHORITY IS RETAINED</p>
+            <div class="authority-grid">
+              <span><b>Customer Release Authority</b>Final go/no-go decision</span>
+              <span><b>Service Risk Owner</b>Accept or reject residual operational risk</span>
+              <span><b>Operations Representative</b>Confirm operational readiness and credentials</span>
+              <span><b>Commercial Authority</b>Confirm the authorised acceptance baseline</span>
+              <span><b>Independent Assurance Lead</b>Issue a current assurance conclusion</span>
+              <span><b>Test and Transition Leads</b>Complete outstanding technical evidence</span>
+            </div>
+          </div>
+
+          <div class="northstar-panel" data-northstar-content="support" hidden>
+            <p class="comparison-label">NOT A RED LIGHT WITHOUT AN EXPLANATION</p>
+            <ol class="support-list">
+              <li><span>01</span><p>Identifies the applicable readiness rule.</p></li>
+              <li><span>02</span><p>Explains the plain-English reason the condition is unmet.</p></li>
+              <li><span>03</span><p>Links supporting and opposing evidence with provenance and time.</p></li>
+              <li><span>04</span><p>Surfaces contradictions rather than averaging them away.</p></li>
+              <li><span>05</span><p>States the required action and accountable authority.</p></li>
+              <li><span>06</span><p>Records confidence, limitations and the eventual human decision.</p></li>
+            </ol>
+          </div>
+
+          <div class="northstar-panel" data-northstar-content="brief" hidden>
+            <p class="comparison-label">WHAT THE DECISION-MAKER RECEIVES</p>
+            <div class="decision-brief">
+              <div class="brief-header"><span>APEX DECISION BRIEF</span><strong>Conditionally Ready</strong><small>Confidence: medium-high · 0.88</small></div>
+              <div><span>Decision</span><p>Unconditional approval is not permitted on the current evidence.</p></div>
+              <div><span>Conditions</span><p>Nine rules require action, each with a required action and accountable authority.</p></div>
+              <div><span>Evidence</span><p>Source references, contradiction trail, versions, effective dates and provenance.</p></div>
+              <div><span>Authority</span><p>Customer Release Authority decides after prerequisite authorities resolve their conditions.</p></div>
+              <div><span>Limitations</span><p>Customer impact requires specialist human review. Synthetic evidence and controlled parsers are used.</p></div>
+            </div>
+          </div>
+        </div>
+
+        <p class="boundary reveal"><strong>Boundary:</strong> Northstar is a controlled synthetic proof of concept. APEX has not approved the release; it has established why unconditional approval is unsupported, what must change and which human roles must decide.</p>
+      </div>
+    </section>
+
+    <section class="section capability-section" id="capabilities">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <p class="eyebrow">THE ENDURING PRODUCT STORY</p>
+          <h2>Northstar proves one question. APEX is being built to support many.</h2>
+        </div>
+
+        <div class="capability-grid">
+          <article class="capability reveal"><span>01</span><h3>Delivery intelligence</h3><p>Tests whether reported progress is supported by commitments, dependencies, evidence and causal relationships.</p></article>
+          <article class="capability reveal"><span>02</span><h3>Benefits intelligence</h3><p>Tracks whether the outcomes that justified the investment remain relevant, achievable and measurable.</p></article>
+          <article class="capability reveal"><span>03</span><h3>Strategic drift</h3><p>Compares original intent, approved change, current delivery and today's business need.</p></article>
+          <article class="capability reveal"><span>04</span><h3>Explainable reasoning</h3><p>Every conclusion shows evidence, contradiction, uncertainty, action and human authority.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section interview-section" id="interview">
+      <div class="shell interview-layout">
+        <div class="section-heading reveal">
+          <p class="eyebrow">SHAPE A CASE STUDY</p>
+          <h2>Bring a difficult decision—not a polished brief.</h2>
+          <p>This guided interview is an early prototype of how APEX could ask qualifying questions. Your answers remain in your browser unless you choose to create an email.</p>
+          <div class="interview-principles">
+            <span>Actor</span><span>Decision</span><span>Purpose</span><span>Change</span><span>Evidence</span><span>Quiet voice</span><span>APEX output</span>
+          </div>
+        </div>
+
+        <form class="case-interview reveal" data-case-interview>
+          <div class="interview-progress"><span data-progress-text>Question 1 of 7</span><i><b data-progress-bar></b></i></div>
+
+          <fieldset class="interview-step is-active" data-interview-step="0">
+            <legend>Who is the Actor asking APEX?</legend>
+            <p>Use a role rather than a name—for example Sponsor, Programme Director or Customer Release Authority.</p>
+            <label><span>Actor or role</span><input name="actor" type="text" autocomplete="off" placeholder="Customer Release Authority"></label>
+          </fieldset>
+
+          <fieldset class="interview-step" data-interview-step="1" hidden>
+            <legend>What decision must they make?</legend>
+            <p>Phrase it as a direct question that the Actor might ask.</p>
+            <label><span>Decision question</span><textarea name="decision" rows="3" placeholder="Should Release R12 go live on Friday?"></textarea></label>
+          </fieldset>
+
+          <fieldset class="interview-step" data-interview-step="2" hidden>
+            <legend>What business purpose or benefit justified the work?</legend>
+            <label><span>Original purpose and intended benefits</span><textarea name="purpose" rows="4" placeholder="Improve customer servicing while strengthening payment resilience…"></textarea></label>
+          </fieldset>
+
+          <fieldset class="interview-step" data-interview-step="3" hidden>
+            <legend>What has changed since the original decision?</legend>
+            <label><span>Changes in scope, actors, assumptions, dates or organisational need</span><textarea name="change" rows="4" placeholder="The deployment date moved, the benefits owner changed and a new change request altered the acceptance baseline…"></textarea></label>
+          </fieldset>
+
+          <fieldset class="interview-step" data-interview-step="4" hidden>
+            <legend>What evidence is available?</legend>
+            <label><span>Artefacts, systems and conversations</span><textarea name="evidence" rows="4" placeholder="Business case, benefits plan, contract, integrated plan, RAID log, testing, approvals, operational acceptance…"></textarea></label>
+          </fieldset>
+
+          <fieldset class="interview-step" data-interview-step="5" hidden>
+            <legend>Whose voice is quiet or missing?</legend>
+            <label><span>People, customers or operational consequences that may be under-represented</span><textarea name="quietVoice" rows="4" placeholder="Contact-centre operations, vulnerable customers, service risk owner…"></textarea></label>
+          </fieldset>
+
+          <fieldset class="interview-step" data-interview-step="6" hidden>
+            <legend>What should a useful APEX answer contain?</legend>
+            <label><span>Decision support required</span><textarea name="output" rows="4" placeholder="A clear answer, contradictions, unmet conditions, required actions, confidence and who has authority…"></textarea></label>
+          </fieldset>
+
+          <div class="interview-actions">
+            <button class="button button-secondary dark" type="button" data-interview-back disabled>Back</button>
+            <button class="button button-primary" type="button" data-interview-next>Next question</button>
+          </div>
+
+          <div class="interview-summary" data-interview-summary hidden>
+            <p class="comparison-label">DRAFT CASE-STUDY BRIEF</p>
+            <div data-summary-content></div>
+            <div class="summary-actions">
+              <button class="button button-secondary dark" type="button" data-interview-edit>Edit answers</button>
+              <a class="button button-primary" data-interview-email href="mailto:neil@orangepeelit.co.uk?subject=APEX%20case%20study">Create an email</a>
+            </div>
+            <small>No information is sent automatically. The email opens only when you choose it.</small>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section roadmap" id="roadmap">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <p class="eyebrow">THE ROADMAP</p>
+          <h2>Every new case study should test the theory and add evidence to the product story.</h2>
+          <p>The microsite will grow cumulatively: more Actors, more questions, more evidence patterns and more demonstrated outcomes.</p>
+        </div>
+
+        <div class="roadmap-list reveal">
+          <div class="done"><span>Complete</span><strong>OPUS theory, ontology research and use-case catalogue</strong></div>
+          <div class="done"><span>Complete</span><strong>Implementation architecture, ADRs and machine-readable ontology</strong></div>
+          <div class="done"><span>Demonstrated</span><strong>Case Study 01 — Should Northstar Release R12 go live?</strong></div>
+          <div class="current"><span>v0.6</span><strong>OPUS-to-APEX story, case-study library and decision-brief demonstration</strong></div>
+          <div class="next"><span>Next</span><strong>Case Study 02 — Is our programme really on track?</strong></div>
+          <div><span>Planned</span><strong>Benefits and strategic-drift case studies, including change-trajectory reasoning</strong></div>
+          <div><span>Researching</span><strong>Conversational and voice interface with qualifying questions</strong></div>
+          <div><span>Future</span><strong>Controlled live pilots and production productisation</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section principle">
+      <div class="shell narrow reveal">
+        <p class="eyebrow">THE ORANGE PEEL PRINCIPLE</p>
+        <h2>Every significant decision should remain continuously justified.</h2>
+        <p>APEX does not make the decision. It makes it harder to make the decision without understanding the evidence.</p>
+      </div>
+    </section>
+
+    <section class="conversation" id="conversation">
+      <div class="shell conversation-inner reveal">
+        <p class="eyebrow light">OPUS · APEX · ORANGE PEEL IT SERVICES</p>
+        <h2>Bring us a difficult organisational decision worth testing.</h2>
+        <p>APEX is an Orange Peel research and development initiative. We are looking for controlled opportunities to challenge the theory, form new case studies and learn what decision-makers genuinely need.</p>
+        <a class="button button-light" href="mailto:neil@orangepeelit.co.uk?subject=APEX%20conversation">Start a conversation</a>
+      </div>
+    </section>
   </main>
+
   <footer>
     <div class="shell footer-inner">
-      <div>
-        <strong>Orange Peel IT Services Ltd</strong>
+      <div class="footer-brand">
+        <img src="assets/orange-peel-brand.png" alt="Orange Peel IT Services Ltd">
         <p>Independent judgement. Practical leadership. Successful delivery.</p>
-        <div class="site-footer-links">
-          <a href="opus.html">OPUS methodology</a>
-          <a href="research.html">Research</a>
-          <a href="applications.html">Applications</a>
-          <a href="contact.html">Contact</a>
-        </div>
       </div>
-      <p>
-        APEX microsite — v0.5<br>
-        Built upon the OPUS methodology.
-      </p>
+      <div class="footer-release">
+        <strong>APEX v0.6</strong>
+        <p>OPUS research made practical · First proof of concept demonstrated</p>
+      </div>
     </div>
   </footer>
+
   <script src="script.js"></script>
 </body>
 </html>

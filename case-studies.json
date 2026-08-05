@@ -1,0 +1,62 @@
+[
+  {
+    "id": "northstar-go-live",
+    "number": "01",
+    "status": "Demonstrated",
+    "statusClass": "demonstrated",
+    "actor": "Customer Release Authority",
+    "question": "Should we go live?",
+    "title": "Northstar Release R12",
+    "summary": "Tests technical, operational, commercial and authority evidence before a customer-facing release decision.",
+    "maturity": "Working synthetic proof of concept",
+    "answer": "Conditionally Ready",
+    "detail": "Fourteen sources were mapped, all ten seeded contradictions were detected and nine readiness rules required action before unconditional approval could be supported.",
+    "link": "#northstar-case",
+    "linkLabel": "Open the demonstrated case"
+  },
+  {
+    "id": "programme-track",
+    "number": "02",
+    "status": "Researching",
+    "statusClass": "researching",
+    "actor": "Programme Director or Sponsor",
+    "question": "Is our programme really on track?",
+    "title": "Delivery confidence beyond status reporting",
+    "summary": "Tests whether reported progress is supported by commitments, dependencies, evidence and a plausible route to completion.",
+    "maturity": "Next research case",
+    "answer": "Question under formation",
+    "detail": "The case will distinguish dashboard status from delivery reality and explore causal relationships, forecast confidence and the evidence behind a recovery intervention.",
+    "link": "#interview",
+    "linkLabel": "Help shape this case"
+  },
+  {
+    "id": "benefits",
+    "number": "03",
+    "status": "Planned",
+    "statusClass": "planned",
+    "actor": "Sponsor or Benefits Owner",
+    "question": "Will this programme deliver the benefits we wanted?",
+    "title": "Benefits intelligence",
+    "summary": "Connects the original business case, benefit measures, approved changes, current delivery and today's organisational need.",
+    "maturity": "Planned case study",
+    "answer": "Research hypothesis",
+    "detail": "The case will test whether benefits remain relevant, achievable and measurable after scope, actors, assumptions and the operating environment have changed.",
+    "link": "#interview",
+    "linkLabel": "Help shape this case"
+  },
+  {
+    "id": "change-drift",
+    "number": "04",
+    "status": "Illustrative",
+    "statusClass": "illustrative",
+    "actor": "Change Authority or Investment Authority",
+    "question": "Should we approve this change?",
+    "title": "Strategic drift and trajectory",
+    "summary": "Explores whether an apparently sensible change moves the programme away from the trajectory that supported the original benefits case.",
+    "maturity": "Illustrative future case—not yet demonstrated",
+    "answer": "Possible future result: 72% trajectory divergence",
+    "detail": "The intended case will connect original purpose, benefits, current scope, authorised changes, changing actors and today's organisational need. The 72% figure is illustrative, not a result from the Northstar POC.",
+    "link": "#interview",
+    "linkLabel": "Help shape this case"
+  }
+]
